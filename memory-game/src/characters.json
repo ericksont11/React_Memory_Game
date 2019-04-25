@@ -1,63 +1,78 @@
 [
     {
       "id": 1,
-      "name": "SpongeBob",
-      "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014"
+      "name": "Thorin",
+      "image": "https://img.cinemablend.com/cb/1/6/3/b/a/6/163ba6820b84f13b660396d6959cec36b43dfcf17a3153c52e0c00b055dbc476.jpg"
     },
     {
       "id": 2,
-      "name": "Mr. Krabs",
-      "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131"
+      "name": "Gloin",
+      "image": "https://img.cinemablend.com/cb/d/3/5/4/9/c/d3549c35c2f6636a8408fef28f0168713c1f49f07001220a110f430f4cb60b99.jpg"
     },
     {
       "id": 3,
-      "name": "Squidward",
-      "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626"
+      "name": "Dori",
+      "image": "https://img.cinemablend.com/cb/5/4/c/8/2/e/54c82ebff7115767f961c46728c3fb880f6ea5913e0e6d4bca83347e5a3b8b24.jpg"
     },
     {
       "id": 4,
-      "name": "Dexter",
-      "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png"
+      "name": "Nori",
+      "image": "https://img.cinemablend.com/cb/6/f/0/5/8/b/6f058b50bafab804429d1db4e99f40fad017bd533d3f5ae8ec698ce41903521f.jpg"
     },
     {
       "id": 5,
-      "name": "Courage",
-      "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423"
+      "name": "Oin",
+      "image": "https://img.cinemablend.com/cb/c/e/c/a/5/c/ceca5c893ed68cdebd147ecc3c319f7e3773a51ca93f3140d76bdab71ca75c71.jpg"
     },
     {
       "id": 6,
-      "name": "Doug Funnie",
-      "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511"
+      "name": "Bifur",
+      "image": "https://img.cinemablend.com/cb/1/8/0/6/f/b/1806fb469c2b506842dc03c2fc4d4fc5399c8f02ee12be60f0bc557004d55a7b.jpg"
     },
     {
       "id": 7,
-      "name": "Bugs Bunny",
-      "image": "https://vignette2.wikia.nocookie.net/deathbattlefanon/images/2/2b/Bugs_Bunny.png/revision/latest?cb=20151206010607"
+      "name": "Dwalin",
+      "image": "https://img.cinemablend.com/cb/0/7/5/3/3/4/0753346af723ee5adae4236bec6aa5ff9394a7a3e513798d84f007ab6a7f2645.jpg"
     },
     {
       "id": 8,
-      "name": "Johnny Bravo",
-      "image": "http://vignette3.wikia.nocookie.net/p__/images/9/9a/Johnny_Bravo.png/revision/latest?cb=20131031233339&path-prefix=protagonist"
+      "name": "Bombur",
+      "image": "https://img.cinemablend.com/cb/0/9/e/6/3/0/09e6303a3a96484df0e919fb24b82bbdbdd8d22e261f3b198ef7ecf334024d26.jpg"
     },
     {
       "id": 9,
-      "name": "Tommy Pickles",
-      "image": "https://vignette4.wikia.nocookie.net/uncyclopedia/images/e/e4/Tommy_Pickles.png/revision/latest?cb=20110530102641"
+      "name": "Balin",
+      "image": "https://img.cinemablend.com/cb/8/6/6/6/1/2/8666121279aa090b37c919308a0966ea90d6350ccc6fd6a25a128cc36996c431.jpg"
     },
     {
       "id": 10,
-      "name": "Rocko",
-      "image": "http://vignette3.wikia.nocookie.net/rockosmodernlife/images/9/9e/Rockos-modern-life-4e582a8f06a41.png/revision/latest?cb=20130522173416"
+      "name": "Bofur",
+      "image": "https://img.cinemablend.com/cb/b/a/e/1/8/4/bae184437e7e95a8e330d0f04cc90a511419993889a8ece85ee0a30b835bdbe5.jpg"
     },
     {
       "id": 11,
-      "name": "Captain Planet",
+      "name": "Fili",
       "image": "http://vignette2.wikia.nocookie.net/dragon-rap-battles/images/b/b6/Captain_Planet.png/revision/latest?cb=20160911200836"
     },
     {
       "id": 12,
-      "name": "Ickis",
-      "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png"
+      "name": "Kili",
+      "image": "https://img.cinemablend.com/cb/9/6/7/c/f/4/967cf4624914fe4ce12f5c1e884ab05e54ca03495f7be0885a06ae804989d5d5.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Ori",
+        "image": "https://img.cinemablend.com/cb/2/7/9/e/c/3/279ec3cb73196c0c4f834e4a721575f494b63b0169f19c05e2e37836f6cfcf8e.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Gandalf",
+        "image": "https://vignette.wikia.nocookie.net/lotr/images/8/8d/Gandalf-2.jpg/revision/latest?cb=20130209172436"
+    },
+    {
+        "id": 15,
+        "name": "Bilbo",
+        "image": "https://vignette.wikia.nocookie.net/edain-mod/images/3/3d/Bilbo.jpg/revision/latest?cb=20160423010958"
     }
   ]
   
