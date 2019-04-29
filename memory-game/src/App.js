@@ -9,11 +9,11 @@ class App extends React.Component {
     characters,
     score: 0,
     picked: [],
-    feedback:[ "","Guaranteed Point!", "You're not a goldfish", "Good Start", "Keep it up",
-              "You're rolling", "Still easy?", "Who was the first dwarf you picked?",
+    feedback:[ "New Game: Don't click the same image twice!","Guaranteed Point!", "You're not a goldfish",
+               "Good Start", "Keep it up", "You're rolling", "Still easy?", "Who was the first dwarf you picked?",
               "Are these distracting!?", "Is this too easy?", "Should I have put random"+
-              "orcs instead?", "I'm rooting for you now", "Not really", "So close",
-              "Tolkien fanboy", "You actually did it!", "LOSER" ]
+              " orcs instead?", "I'm rooting for you now", "Not really", "Luck or skill..?",
+              "Are you a Tolkien fanboy?", "You actually got them all!"]
   }
 
   componentWillMount() {
@@ -35,6 +35,7 @@ class App extends React.Component {
     const name = selected.target.id
     if (this.state.picked.includes(name)) {
       this.setState({ score: 0});
+      this.setState({ picked: [] });
     }
     else {
       this.state.picked.push(name)
