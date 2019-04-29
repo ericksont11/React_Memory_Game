@@ -15,14 +15,14 @@ class App extends React.Component {
     this.shuffleCards()
   }
 
-  shuffleCards = () => {
-    let shuffle = this.state.characters
-    for (let i = shuffle.length - 1; i > 0; i--) {
+  handleRandomize = () => {
+    let randomize = this.state.characters
+    for (let i = randomize.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
-      [shuffle[i], shuffle[j]] = [shuffle[j], shuffle[i]];
+      [randomize[i], randomize[j]] = [randomize[j], randomize[i]];
     }
     this.setState({
-      characters: shuffle
+      characters: randomize
     })
   };
 
@@ -34,7 +34,7 @@ class App extends React.Component {
     else {
       this.state.picked.push(name)
       this.setState({ score: this.state.score + 1 });
-      this.shuffleCards()
+      this.handleRandomize()
     }
   };
 
