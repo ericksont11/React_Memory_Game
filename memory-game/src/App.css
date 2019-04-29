@@ -23,6 +23,12 @@
   color: #61dafb;
 }
 
+.feedback {
+  margin:0;
+  padding: 0;
+  color: blue
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -8,11 +8,16 @@ class App extends React.Component {
   state = {
     characters,
     score: 0,
-    picked: []
+    picked: [],
+    feedback:[ "","Guaranteed Point!", "You're not a goldfish", "Good Start", "Keep it up",
+              "You're rolling", "Still easy?", "Who was the first dwarf you picked?",
+              "Are these distracting!?", "Is this too easy?", "Should I have put random"+
+              "orcs instead?", "I'm rooting for you now", "Not really", "So close",
+              "Tolkien fanboy", "You actually did it!", "LOSER" ]
   }
 
   componentWillMount() {
-    this.shuffleCards()
+    this.handleRandomize()
   }
 
   handleRandomize = () => {
@@ -43,7 +48,7 @@ class App extends React.Component {
       <>
       <Header 
         score = {this.state.score} 
-        picked={this.state.picked}
+        feedback={this.state.feedback[this.state.score]}
       />
       {
           this.state.characters.map(character => (
