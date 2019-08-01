@@ -3,3 +3,5 @@
 A game built using React to test a user's memory
 
 Users must try to pick a character from 'The Hobbit' without clicking on the same character twice!
+
+Working on adding animations for effect
